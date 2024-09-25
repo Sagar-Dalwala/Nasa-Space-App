@@ -162,9 +162,9 @@ const SolarSystem = () => {
     >
       <ambientLight intensity={0.5} />
       <pointLight position={[10, 10, 10]} />
-      <Suspense fallback={<span>Loading...</span>}>
+      {/* <Suspense fallback={<span>Loading...</span>}> */}
         <StarfieldBackground />
-      </Suspense>
+      {/* </Suspense> */}
       <ZoomHandler />
       <OrbitControls enablePan={false} />
     </Canvas>
