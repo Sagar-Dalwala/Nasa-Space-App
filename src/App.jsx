@@ -1,6 +1,7 @@
 
 import './App.css'
 import SolarSystem from './components/SolarSystem'
+import StarField from './components/StarField'
 
 function App() {
   
